@@ -68,9 +68,3 @@ button {
 button:hover {
     background: #005fa3;
 }
-
-.oculto {
-    display: none;
-    color: green;
-    margin-top: 15px;
-}

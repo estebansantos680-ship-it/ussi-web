@@ -37,30 +37,22 @@
 
     <section class="form-section">
         <h2>Cotizaciones</h2>
-        
-        <form action="https://formspree.io/f/xgvrozaz" method="POST">
+
+        <form action="https://formsubmit.co/estebansantos680@gmail.com" method="POST">
 
             <input type="text" name="nombre" placeholder="Nombre completo" required>
-
             <input type="email" name="email" placeholder="Correo electrónico" required>
-
             <input type="tel" name="telefono" placeholder="Número de teléfono" required>
 
-            <!-- Asunto del correo -->
-            <input type="hidden" name="_subject" value="Nueva solicitud de cotización - USSI">
+            <input type="hidden" name="_autoresponse" value="Hola, muchas gracias por contactarnos. Hemos recibido su solicitud de cotización y le responderemos en las próximas 24-48 horas. Atentamente, USSI.">
 
-            <!-- Redirección después de enviarlo -->
-            <input type="hidden" name="_redirect" value="https://estebansantos680b-ship-it.github.io/ussi-web/">
+            <input type="hidden" name="_next" value="https://estebansantos680b-ship-it.github.io/ussi-web/">
 
             <button type="submit">Enviar solicitud</button>
 
         </form>
 
-        <p id="mensajeConfirmacion" class="oculto">
-            ¡Gracias! Recibirás un correo de confirmación en breve.
-        </p>
     </section>
 
 </body>
 </html>
-
